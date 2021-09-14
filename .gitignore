@@ -35,7 +35,6 @@ vignettes/*.pdf
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
 
-# csv, png, and pdf
-*.csv
+# png, and pdf
 *.png
 *.pdf
