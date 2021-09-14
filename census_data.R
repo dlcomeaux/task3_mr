@@ -122,7 +122,7 @@ age_distro_2019 <-
   
 # This should work as of 9/16
 age_distro_2020 <-
-  get_decennial(year = 2010,
+  get_decennial(year = 2020,
                 geography = "county",
                 variables = age_2010,
                 state = "17",
