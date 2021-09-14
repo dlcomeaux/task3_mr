@@ -40,6 +40,9 @@ tracts_in_central_area <-
 
 st_geometry(tracts_in_central_area) <- NULL
 
+# Export
+write.csv(tracts_in_central_area,"tracts_in_central_area.csv")
+
 # Create helper value to allow for collapsing of distinct work trip chains
 chain_id <-
   # Load chain data from MDT
